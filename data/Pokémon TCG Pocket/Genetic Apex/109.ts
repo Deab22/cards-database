@@ -5,29 +5,29 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Jolteon"
+		en: "Eelektross"
 	},
 
 	category: "Pokemon",
-	hp: 90,
+	hp: 140,
 	types: ["Lightning"],
-	stage: "Stage1",
+	stage: "Stage2",
 
 	attacks: [{
-		cost: ["Lightning", "Colorless"],
+		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
-			en: "Pin Missile"
+			en: "Thunder Fang"
 		},
 
 		effect: {
-			en: "Flip 4 coins. This attack does 40 damage for each heads."
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
 		},
 
-		damage: "40x"
+		damage: "80"
 	}],
 
-	retreat: 1,
+	retreat: 3,
 	rarity: "Three Diamond"
 }
 

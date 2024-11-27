@@ -5,26 +5,30 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magikarp"
+		en: "Frosmoth"
 	},
 
 	category: "Pokemon",
-	hp: 30,
+	hp: 90,
 	types: ["Water"],
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Water", "Colorless"],
 
 		name: {
-			en: "Splash"
+			en: "Powder Snow"
 		},
 
-		damage: "10"
+		effect: {
+			en: "Your opponent's Active Pokémon is now Asleep."
+		},
+
+		damage: "40"
 	}],
 
 	retreat: 1,
-	rarity: "One Diamond"
+	rarity: "Two Diamond"
 }
 
 export default card

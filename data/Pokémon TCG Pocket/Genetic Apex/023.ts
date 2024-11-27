@@ -14,7 +14,7 @@ const card: Card = {
 	stage: "Stage1",
 	suffix: "EX",
 	retreat: 3,
-	rarity: "None"
+	rarity: "Four Diamond"
 }
 
 export default card

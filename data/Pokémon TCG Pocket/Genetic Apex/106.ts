@@ -5,30 +5,28 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Moltres"
+		en: "Zebstrika"
 	},
 
 	category: "Pokemon",
-	hp: 100,
-	types: ["Fire"],
-	stage: "Basic",
+	hp: 90,
+	types: ["Lightning"],
+	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fire", "Colorless", "Colorless"],
+		cost: ["Lightning"],
 
 		name: {
-			en: "Sky Attack"
+			en: "Thunder Spear"
 		},
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing"
-		},
-
-		damage: "130"
+			en: "This attack does 30 damage to 1 of your opponent's Pokémon."
+		}
 	}],
 
 	retreat: 1,
-	rarity: "Three Diamond"
+	rarity: "Two Diamond"
 }
 
 export default card

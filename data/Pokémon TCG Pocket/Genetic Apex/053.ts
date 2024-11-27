@@ -5,22 +5,22 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magikarp"
+		en: "Squirtle"
 	},
 
 	category: "Pokemon",
-	hp: 30,
+	hp: 60,
 	types: ["Water"],
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
+		cost: ["Water"],
 
 		name: {
-			en: "Splash"
+			en: "Water Gun"
 		},
 
-		damage: "10"
+		damage: "20"
 	}],
 
 	retreat: 1,
